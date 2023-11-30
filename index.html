@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="tablet_style.css">
+    <link rel="stylesheet" type="text/css" href="mobile_style.css">
+
+    <title>SG Portfolio</title>
+</head>
+<body>
+        <!-- Side Nav --> 
+        <div class="side-nav">
+            <input type="checkbox" id="active">
+            <label for="active" class="menu-btn"><span></span></label>
+            <label for="active" class="close"></label>
+        <ul class="wrapper noselect">
+            <li><a class="nav_link" href="#"></a></li>
+            <li><div onclick="sectionOne()"  class="side_btn nav_link" href="#"><img class="nav_icons" width="25" height="25" src="https://img.icons8.com/glyph-neue/64/000000/about--v2.png" alt="About"/>About</div></li>
+            <li><div onclick="sectionTwo()" class="side_btn nav_link" href="#"><img class="nav_icons" width="25" height="25" src="https://img.icons8.com/dotty/80/portfolio.png" alt="Projects"/>Projects</li>
+            <li><div onclick="sectionThree()" class="side_btn nav_link" href="#"><img class="nav_icons"  width="25" height="25" src="https://img.icons8.com/ios-filled/50/customer-insight.png" alt="Experience"/>Experience</div></li>
+            <li><div onclick="sectionFour()" class="side_btn nav_link" href="#"><img width="25" height="25" src="https://img.icons8.com/sf-regular-filled/48/email.png" alt="Contacts"/>Contacts</div></li>
+        </ul>
+    </div>
+
+    <div class="main_nav animate_text fadeInDown">
+         <!-- Main Nav-->
+        <nav class="noselect">
+            <ul>
+                <li class="first_name_side""><a class="logo" href="index.html">Serge Gavrilov</a></li>
+                <li class="hideOnMobile"><div onclick="sectionOne()"  class="nav_link" href="#"><img class="nav_icons" width="25" height="25" src="https://img.icons8.com/glyph-neue/64/000000/about--v2.png" alt="About"/>About</div></li>
+                <li class="hideOnMobile"><div onclick="sectionTwo()" class="nav_link" href="#"><img class="nav_icons"  width="25" height="25" src="https://img.icons8.com/dotty/80/portfolio.png" alt="portfolio"/>Projects</div></li>
+                <li class="hideOnMobile"><div onclick="sectionThree()" class="nav_link" href="#"><img class="nav_icons"  width="25" height="25" src="https://img.icons8.com/ios-filled/50/customer-insight.png" alt="Experience"/>Experience</div></li>
+                <li class="hideOnMobile"><div onclick="sectionFour()" class="nav_link" href="#"><img class="nav_icons" width="25" height="25" src="https://img.icons8.com/sf-regular-filled/48/email.png" alt="Contacts"/>Contacts</div></li>
+
+            </ul>
+        </nav>
+    </div>
+        <!-- first page -->
+    <section class="main" id="sec_one">
+    <div class="container">
+            <div class="animate_text fadeInLeft">
+                <h1 class="first_name">Serge</h1>
+            </div>
+            <div class="animate_text fadeInRight">
+                <h1 class="last_name">Gavrilov</h1>     
+          </div>
+    </div>
+
+    <div class="container2">
+    <div class="animate_text fadeInUp">
+        <h2 class="subtitle">Web Developer</h2>     
+      </div>
+      </div>
+      <div class="container3">
+        <p class="abstract animate_text fadeInUp">I build front and back end sites to create digital experiences for the web.</p>
+      </div>
+
+
+      <div class="social-menu animate_text fadeInUp">
+        <ul>
+            <li><a href="#" target="blank"><img class="sc" src="instagram.svg"></a></li>
+            <li><a href="#" target="blank"><img class="sc" src="linkedin.svg"></a></li>
+            <li><a href="#" target="blank"><img class="sc" src="github.svg"></a></li>
+        </ul>
+    </div>
+
+</section>
+    <section class="sec_banner" id="sec_two">
+        <div class="container4">
+        <h1 class="project-title">Projects</h1>   
+        <section class="card">
+            <div class="product-image">
+                <img src="pixels.jpg" alt="projects" draggable="false" />
+              </div>
+              <div class="product-info">
+                <h2>Ecommerce Website</h2>
+                <p>uploaded done and dusted</p>
+                <div class="code_info">Django</div>
+                <div class="code_info">Html</div>
+                <div class="code_info">CSS</div>
+              </div>
+              <div class="btn">
+                <button class="project-btn">Project</button>
+              </div>
+            </section>
+            
+            <section class="card">
+              <div class="product-image">
+                <img src="pixels.jpg" alt="projects" draggable="false" />
+              </div>
+              <div class="product-info">
+                <h2>Ecommerce Website</h2>
+                <p>uploaded done and dusted</p>
+                <div class="code_info">Django</div>
+                <div class="code_info">Html</div>
+                <div class="code_info">CSS</div>
+              </div>
+              <div class="btn">
+                <button class="project-btn">Project</button>
+                </button>
+              </div>
+            </section>
+            <section class="card">
+              <div class="product-image">
+                <img src="pixels.jpg" alt="projects" draggable="false" />
+              </div>
+              <div class="product-info">
+                <h2>Ecommerce Website</h2>
+                <p>uploaded done and dusted</p>
+                <div class="code_info">Django</div>
+                <div class="code_info">Html</div>
+                <div class="code_info">CSS</div>
+              </div>
+              <div class="btn">
+                <button class="project-btn">Project</button>
+              </div>
+            </div>
+    </section>
+
+    <section class="timeline-section" id="sec_three">
+        <div class="timeline-items">
+            <h1 class="section-title">Experience</h1>     
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2015</div>
+                <div class="timeline-content">
+                    <h3>timeline item title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2016</div>
+                <div class="timeline-content">
+                    <h3>timeline item title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2017</div>
+                <div class="timeline-content">
+                    <h3>timeline item title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2018</div>
+                <div class="timeline-content">
+                    <h3>timeline item title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2019</div>
+                <div class="timeline-content">
+                    <h3>timeline item title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec_banner" id="sec_four">
+        <h1 class="contact-head">Contact</h1>    
+  <div class="form-main-wrapper">
+    <div class="form-form-wrapper">
+      <form action="#" method="POST">
+        <div class="form-sub-container">
+          <label for="name" class="form-form-label"> Full Name </label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Full Name"
+            class="form-form-input"
+          />
+        </div>
+  
+        <div class="form-sub-container">
+          <label for="email" class="form-form-label"> Email Address </label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+            class="form-form-input"
+          />
+        </div>
+  
+        <div class="form-sub-container">
+          <label for="subject" class="form-form-label"> Subject </label>
+          <input
+            type="text"
+            name="subject"
+            id="subject"
+            placeholder="Enter your subject"
+            class="form-form-input"
+          />
+        </div>
+  
+        <div class="form-sub-container">
+          <label for="message" class="form-form-label"> Message </label>
+          <textarea
+            rows="6"
+            name="message"
+            id="message"
+            placeholder="Type your message"
+            class="form-form-input"
+          ></textarea>
+        </div>
+
+        <div>
+          <button class="form-btn">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+    </section>
+
+    <footer class="footer-section">
+    <div class="footer-container">
+        <h4>Designed in Figma and coded in Visual Studio Code.</h4> 
+        <h4>Built with CSS, Django and a little Vanilla JS, deployed with Docker.</h4>
+    </div>
+    <div class="footer-sub-section">
+        <h5>©2023 Portfolio / Creator: Serge Gavrilov</h5>
+    </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
